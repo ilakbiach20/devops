@@ -16,7 +16,7 @@ pipeline{
                             )
 
                             rtMavenRun (
-                                tool: 'Maven 3.6.3',
+                                tool: 'Maven 3.8.4',
                                 pom: 'pom.xml',
                                 goals: 'clean install',
                                 deployerId: 'artifactory',
